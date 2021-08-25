@@ -1,0 +1,73 @@
+/* background img */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* contenitore con trasparenza */
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+/* logo, immagine e bottoni */
+header {
+    text-align: center;
+    color: #00dc02;
+
+}
+
+header > img{
+    width: 200px;
+}
+
+.botton-reservations{
+    background-color: #00dc02;
+    padding: 10px;
+}
+
+/* corpo della pagina */
+main{
+    margin-top: 30px;
+}
+
+input, .mono-name{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.info{
+    font-size: 12px;
+}
+
+.status-med{
+    background-color: #ffb62f;
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.status-high{
+    background-color: #00B800;
+    border-radius: 5px;
+    height: 25px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.status-low{
+    background-color: #fb3632;
+    border-radius: 5px;
+    height: 25px;
+    width: 125px;
+}
+
+.arrow:after{
+    content: "\21A6";
+}
